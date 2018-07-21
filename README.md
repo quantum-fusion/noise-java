@@ -18,6 +18,7 @@ Noise-Java will try to use them if present:
  * SHA-256
  * SHA-512
  * AES/CTR/NoPadding
+ * Curve448 (https://github.com/quantum-fusion/noise-java/blob/master/NoiseJavaTests/src/com/southernstorm/noise/tests/Curve448Tests.java)
 
 Some JDK installations restrict the use of 256-bit AES keys.  You may need to
 install the "Unlimited Strength Policy Files" for your JDK to get around this
